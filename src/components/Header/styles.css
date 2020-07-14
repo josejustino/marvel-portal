@@ -1,0 +1,17 @@
+#header {
+   height: 93px;
+}
+
+#header .container {
+   width: 100%;
+   height: 94px;
+   max-width: 1300px;
+   margin: 0 auto;
+   padding: 0 27px;
+   background-color: #ED1D24;
+}
+
+#header .container .content img {
+   width: 141px;
+   padding-top: 20px;
+}

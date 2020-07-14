@@ -1,0 +1,16 @@
+#page-home .content {
+   width: 100%;
+   height: 100%;
+   max-width: 1300px;
+   margin: 0 auto;
+   padding: 27px;
+   background-color: #f0f0f5;
+
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+}
+
+#page-home .content main p {
+   padding-top: 25px;
+}

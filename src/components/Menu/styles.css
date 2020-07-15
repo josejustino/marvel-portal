@@ -1,0 +1,24 @@
+menu {
+   width: 100%;
+   max-width: 305px;
+   padding: 27px;
+   background-color: #333333;
+}
+
+menu ul {
+   list-style: none;
+   color: #FFFFFF;
+}
+
+menu ul li {
+   display: flex;
+}
+
+menu ul li + li {
+   padding-top: 24px;
+}
+
+menu ul li span {
+   margin-top: 7px;
+   margin-left: 20px;
+}

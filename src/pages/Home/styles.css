@@ -1,16 +1,25 @@
-#page-home .content {
+#page-home {
    width: 100%;
-   height: 100%;
+}
+
+.container {
+   display: flex;
    max-width: 1300px;
+   margin: 0 auto;
+}
+
+#page-home .content {
+   height: 100%;
    margin: 0 auto;
    padding: 27px;
    background-color: #f0f0f5;
-
-   display: flex;
-   flex-direction: row;
-   align-items: flex-start;
 }
 
 #page-home .content main p {
    padding-top: 25px;
+}
+
+#page-home .content main .container-img {
+   width: 206px;
+   margin: 53px auto;
 }

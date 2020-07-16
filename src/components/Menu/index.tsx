@@ -1,6 +1,6 @@
 import React from 'react';
-import { FaHome } from 'react-icons/fa';
 
+import home from '../../assets/home.svg';
 import character from '../../assets/character.svg';
 import magazineCover from '../../assets/magazine-cover.svg';
 import author from '../../assets/author.svg';
@@ -14,34 +14,76 @@ const Menu = () => {
    return (
       <menu>
          <ul>
-            <li>
-               <FaHome size="30" />
-               <span>Home</span>
-            </li>
-            <li>
-               <img src={character} alt="iron-man" />
-               <span>Personagens</span>
-            </li>
-            <li>
-               <img src={magazineCover} alt="magazine-cover" />
-               <span>Quadrinhos</span>
-            </li>
-            <li>
-               <img src={author} alt="author" />
-               <span>Criadores</span>
-            </li>
-            <li>
-               <img src={crossovers} alt="crossovers" />
-               <span>Crossovers</span>
-            </li>
-            <li>
-               <img src={comicBookSeries} alt="comic-book-series" />
-               <span>Séries de Quadrinhos</span>
-            </li>
-            <li>
-               <img src={comicBook} alt="comic-book" />
-               <span>Histórias em Quadrinhos</span>
-            </li>
+           <div> 
+               <li>
+                  <div>
+                     <div>
+                        <img src={home} alt="home"/>
+                     </div>
+                     <span>Home</span>
+                  </div>
+               </li>
+            </div>
+            <div> 
+                  <li>
+                     <div>
+                        <div>
+                           <img src={character} alt="iron-man" />
+                        </div>
+                        <span>Personagens</span>
+                     </div>
+                  </li>
+               </div>
+            <div> 
+               <li>
+                  <div>
+                     <div>
+                        <img src={magazineCover} alt="magazine-cover" />
+                     </div>
+                     <span>Quadrinhos</span>
+                  </div>
+               </li>
+            </div>
+            <div>
+               <li>
+                  <div>
+                     <div>
+                        <img src={author} alt="author" />
+                     </div>
+                     <span>Criadores</span>
+                  </div>
+               </li>
+            </div>
+            <div>   
+               <li>
+                  <div>
+                     <div>
+                        <img src={crossovers} alt="crossovers" />
+                     </div>
+                     <span>Crossovers</span>
+                  </div>
+               </li>
+            </div>
+            <div>               
+               <li>
+                  <div>
+                     <div>
+                        <img src={comicBookSeries} alt="comic-book-series" />
+                     </div>
+                     <span>Séries de Quadrinhos</span>
+                  </div>
+               </li>
+            </div>
+            <div>   
+               <li>
+                  <div>
+                     <div>
+                        <img src={comicBook} alt="comic-book" />
+                     </div>
+                     <span>Histórias em Quadrinhos</span>
+                  </div>
+               </li>
+            </div>
          </ul>
       </menu>
    );

@@ -1,7 +1,7 @@
 menu {
    width: 100%;
-   max-width: 305px;
-   padding: 27px;
+   max-width: 310px;
+   padding: 4px 6px;
    background-color: #333333;
 }
 
@@ -10,15 +10,35 @@ menu ul {
    color: #FFFFFF;
 }
 
-menu ul li {
+menu ul div {
+   height: 70px;
+   cursor: pointer;
+}
+
+menu ul div li {
+   display: flex;
+   font-size: 18px;
+}
+
+menu ul div li div {
    display: flex;
 }
 
-menu ul li + li {
-   padding-top: 24px;
+menu ul div li div div {
+   width: 65px
 }
 
-menu ul li span {
+menu ul div li div div img {
+   height: 35px;
+   margin: auto;
+}
+
+menu ul div li span {
    margin-top: 7px;
-   margin-left: 20px;
+   margin-left: 10px;
+   margin-top: 24px;
+}
+
+menu ul div:hover {
+   background-color: #C4C4C4
 }

@@ -3,16 +3,14 @@ import React from 'react';
 import Header from '../../components/Header';
 import Menu from '../../components/Menu';
 
-import homeImage from '../../assets/manopla-do-infinito.png';
-
 import './styles.css';
 
-const Home = () => {
+const Character = () => {
    return (
       <>
          <div className="container-page">
             <Header />
-            <div id="page-home">
+            <div id="page-character">
                <Menu />
                <div className="content">
                   <main>
@@ -21,14 +19,12 @@ const Home = () => {
                         Encontre seu herói favorito, capas de revistas,
                         crossovers e quadrinhos em um estalar de dedos.
                      </p>
-
-                     <img src={homeImage} alt="manopla-do-infinito" />
                   </main>
                </div>
             </div>
          </div>
       </>
    );
-};
+}
 
-export default Home;
+export default Character;

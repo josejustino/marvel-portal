@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import home from '../../assets/home.svg';
 import character from '../../assets/character.svg';
@@ -8,33 +9,35 @@ import crossovers from '../../assets/crossover.svg';
 import comicBookSeries from '../../assets/comic-book-series.svg';
 import comicBook from '../../assets/comic-book.svg';
 
-import './styles.css'
+import './styles.css';
 
 const Menu = () => {
    return (
       <menu>
          <ul>
-           <div> 
-               <li>
-                  <div>
-                     <div>
-                        <img src={home} alt="home"/>
-                     </div>
-                     <span>Home</span>
-                  </div>
-               </li>
-            </div>
-            <div> 
+            <Link to="/">
+               <div>
                   <li>
                      <div>
                         <div>
-                           <img src={character} alt="iron-man" />
+                           <img src={home} alt="home" />
                         </div>
-                        <span>Personagens</span>
+                        <span>Home</span>
                      </div>
                   </li>
                </div>
-            <div> 
+            </Link>
+            <Link to="/characters"><div>
+               <li>
+                  <div>
+                     <div>
+                        <img src={character} alt="iron-man" />
+                     </div>
+                     <span>Personagens</span>
+                  </div>
+               </li>
+            </div></Link>
+            <div>
                <li>
                   <div>
                      <div>
@@ -54,7 +57,7 @@ const Menu = () => {
                   </div>
                </li>
             </div>
-            <div>   
+            <div>
                <li>
                   <div>
                      <div>
@@ -64,7 +67,7 @@ const Menu = () => {
                   </div>
                </li>
             </div>
-            <div>               
+            <div>
                <li>
                   <div>
                      <div>
@@ -74,7 +77,7 @@ const Menu = () => {
                   </div>
                </li>
             </div>
-            <div>   
+            <div>
                <li>
                   <div>
                      <div>
@@ -87,6 +90,6 @@ const Menu = () => {
          </ul>
       </menu>
    );
-}
+};
 
 export default Menu;

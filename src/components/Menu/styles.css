@@ -10,6 +10,11 @@ menu ul {
    color: #FFFFFF;
 }
 
+menu ul a {
+   text-decoration: none;
+   color: #FFFFFF;
+}
+
 menu ul div {
    height: 70px;
    cursor: pointer;
@@ -22,6 +27,7 @@ menu ul div li {
 
 menu ul div li div {
    display: flex;
+   align-items: center;
 }
 
 menu ul div li div div {
@@ -34,9 +40,7 @@ menu ul div li div div img {
 }
 
 menu ul div li span {
-   margin-top: 7px;
    margin-left: 10px;
-   margin-top: 24px;
 }
 
 menu ul div:hover {

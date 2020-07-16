@@ -12,7 +12,7 @@ const Home = () => {
       <>
          <div className="container-page">
             <Header />
-            <div id="page-home">
+            <div id="page">
                <Menu />
                <div className="content">
                   <main>

@@ -10,7 +10,7 @@ const Character = () => {
       <>
          <div className="container-page">
             <Header />
-            <div id="page-character">
+            <div id="page">
                <Menu />
                <div className="content">
                   <main>

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import api from '../../services/api'
+// import api from '../../services/api';
+import axios from 'axios';
 
 import Header from '../../components/Header';
 import Menu from '../../components/Menu';
@@ -12,11 +13,14 @@ class Character extends Component {
    }
 
    async componentDidMount() {
-      const response = await api.get('/v1/public/characters?limit=10&apikey=6f39d34be067f5aa384594f28f8d9203');
+      await axios
+         .get('https://gateway.marvel.com/v1/public/characters?limit=10&apikey=6f39d34be067f5aa384594f28f8d9203')
+         .then(response => {
+            this.setState({
+               characters: response.data
+            });
+         });
 
-      this.setState({
-         characters: response.data
-      });
    }
 
    render() {

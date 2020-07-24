@@ -24,6 +24,7 @@ const Home = () => {
 
                      <img src={homeImage} alt="manopla-do-infinito" />
                   </main>
+                  Data provided by Marvel. © 2014 Marvel
                </div>
             </div>
          </div>

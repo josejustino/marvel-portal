@@ -42,20 +42,22 @@ const Character = () => {
             <Header />
             <div id="page">
                <Menu />
-               <div className="content">
-                  <main>
-                     <ul>
-                        {
-                           characters.map(character => (
-                              <li key={character.id}>
-                                 <strong>{character.name}</strong>
-                                 <p>{character.description}</p>
-                                 <img src={`${character.thumbnail.path}.${character.thumbnail.extension}`} alt=""/>
-                              </li>
-                           ))
-                        }
-                     </ul>
-                  </main>
+               <div className="page-content">
+                  <div className="content">
+                     <main>
+                        <ul>
+                           {
+                              characters.map(character => (
+                                 <li key={character.id}>
+                                    <strong>{character.name}</strong>
+                                    <p>{character.description}</p>
+                                    <img src={`${character.thumbnail.path}.${character.thumbnail.extension}`} alt=""/>
+                                 </li>
+                              ))
+                           }
+                        </ul>
+                     </main>
+                  </div>
                </div>
             </div>
          </div>

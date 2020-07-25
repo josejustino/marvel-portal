@@ -13,82 +13,84 @@ import './styles.css';
 
 const Menu = () => {
    return (
-      <menu>
-         <ul>
-            <Link to="/">
+      <aside>
+         <menu>
+            <ul>
+               <Link to="/">
+                  <div>
+                     <li>
+                        <div>
+                           <div>
+                              <img src={home} alt="home" />
+                           </div>
+                           <span>Home</span>
+                        </div>
+                     </li>
+                  </div>
+               </Link>
+               <Link to="/characters"><div>
+                  <li>
+                     <div>
+                        <div>
+                           <img src={character} alt="iron-man" />
+                        </div>
+                        <span>Personagens</span>
+                     </div>
+                  </li>
+               </div></Link>
                <div>
                   <li>
                      <div>
                         <div>
-                           <img src={home} alt="home" />
+                           <img src={magazineCover} alt="magazine-cover" />
                         </div>
-                        <span>Home</span>
+                        <span>Quadrinhos</span>
                      </div>
                   </li>
                </div>
-            </Link>
-            <Link to="/characters"><div>
-               <li>
-                  <div>
+               <div>
+                  <li>
                      <div>
-                        <img src={character} alt="iron-man" />
+                        <div>
+                           <img src={author} alt="author" />
+                        </div>
+                        <span>Criadores</span>
                      </div>
-                     <span>Personagens</span>
-                  </div>
-               </li>
-            </div></Link>
-            <div>
-               <li>
-                  <div>
+                  </li>
+               </div>
+               <div>
+                  <li>
                      <div>
-                        <img src={magazineCover} alt="magazine-cover" />
+                        <div>
+                           <img src={crossovers} alt="crossovers" />
+                        </div>
+                        <span>Crossovers</span>
                      </div>
-                     <span>Quadrinhos</span>
-                  </div>
-               </li>
-            </div>
-            <div>
-               <li>
-                  <div>
+                  </li>
+               </div>
+               <div>
+                  <li>
                      <div>
-                        <img src={author} alt="author" />
+                        <div>
+                           <img src={comicBookSeries} alt="comic-book-series" />
+                        </div>
+                        <span>Séries de Quadrinhos</span>
                      </div>
-                     <span>Criadores</span>
-                  </div>
-               </li>
-            </div>
-            <div>
-               <li>
-                  <div>
+                  </li>
+               </div>
+               <div>
+                  <li>
                      <div>
-                        <img src={crossovers} alt="crossovers" />
+                        <div>
+                           <img src={comicBook} alt="comic-book" />
+                        </div>
+                        <span>Histórias em Quadrinhos</span>
                      </div>
-                     <span>Crossovers</span>
-                  </div>
-               </li>
-            </div>
-            <div>
-               <li>
-                  <div>
-                     <div>
-                        <img src={comicBookSeries} alt="comic-book-series" />
-                     </div>
-                     <span>Séries de Quadrinhos</span>
-                  </div>
-               </li>
-            </div>
-            <div>
-               <li>
-                  <div>
-                     <div>
-                        <img src={comicBook} alt="comic-book" />
-                     </div>
-                     <span>Histórias em Quadrinhos</span>
-                  </div>
-               </li>
-            </div>
-         </ul>
-      </menu>
+                  </li>
+               </div>
+            </ul>
+         </menu>
+      </aside>
    );
 };
 

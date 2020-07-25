@@ -4,7 +4,7 @@ import logo from '../../assets/marvel-logo.png'
 
 import './styles.css';
 
-const Header: React.FC = () => {
+const Header = () => {
    return (
       <header id="header">
          <div className="container">

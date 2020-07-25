@@ -1,8 +1,12 @@
 menu {
+   position: fixed;
    width: 100%;
-   max-width: 310px;
+   max-width: 242px;
+   height: 100%;
    padding: 4px 6px;
    background-color: #333333;
+   top: 94px;
+   bottom: 0;
 }
 
 menu ul {
@@ -22,7 +26,7 @@ menu ul div {
 
 menu ul div li {
    display: flex;
-   font-size: 18px;
+   font-size: 14px;
 }
 
 menu ul div li div {
@@ -31,11 +35,11 @@ menu ul div li div {
 }
 
 menu ul div li div div {
-   width: 65px
+   width: 50px
 }
 
 menu ul div li div div img {
-   height: 35px;
+   height: 30px;
    margin: auto;
 }
 

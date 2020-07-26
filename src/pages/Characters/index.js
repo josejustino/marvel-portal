@@ -57,6 +57,7 @@ const Character = () => {
                            }
                         </ul>
                      </main>
+                     Data provided by Marvel. © 2014 Marvel
                   </div>
                </div>
             </div>

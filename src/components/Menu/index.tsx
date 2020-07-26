@@ -15,6 +15,7 @@ const Menu = () => {
    return (
       <aside>
          <menu>
+            <div className="menu-top-line"></div>
             <ul>
                <Link to="/">
                   <div>

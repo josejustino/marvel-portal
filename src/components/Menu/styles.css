@@ -1,9 +1,13 @@
+.menu-top-line {
+   border: 1px solid #4A4A4A;
+   margin-top: 50px
+}
+
 menu {
    position: fixed;
    width: 100%;
    max-width: 242px;
    height: 100%;
-   padding: 4px 6px;
    background-color: #333333;
    top: 94px;
    bottom: 0;
@@ -12,6 +16,7 @@ menu {
 menu ul {
    list-style: none;
    color: #FFFFFF;
+   padding: 4px 6px;
 }
 
 menu ul a {

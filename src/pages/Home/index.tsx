@@ -3,7 +3,7 @@ import React from 'react';
 import Header from '../../components/Header';
 import Menu from '../../components/Menu';
 
-import homeImage from '../../assets/manopla-do-infinito.png';
+import homeImage from '../../assets/img/manopla-do-infinito.png';
 
 import './styles.css';
 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import logo from '../../assets/marvel-logo.png'
+import logo from '../../assets/img/marvel-logo.png'
 
 import './styles.css';
 

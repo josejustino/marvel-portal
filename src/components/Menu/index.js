@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import home from '../../assets/home.svg';
-import character from '../../assets/character.svg';
-import magazineCover from '../../assets/magazine-cover.svg';
-import author from '../../assets/author.svg';
-import crossovers from '../../assets/crossover.svg';
-import comicBookSeries from '../../assets/comic-book-series.svg';
-import comicBook from '../../assets/comic-book.svg';
+import home from '../../assets/img/home.svg';
+import character from '../../assets/img/character.svg';
+import magazineCover from '../../assets/img/magazine-cover.svg';
+import author from '../../assets/img/author.svg';
+import crossovers from '../../assets/img/crossover.svg';
+import comicBookSeries from '../../assets/img/comic-book-series.svg';
+import comicBook from '../../assets/img/comic-book.svg';
 
 import './styles.css';
 
